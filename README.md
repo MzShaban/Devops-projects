@@ -1,5 +1,5 @@
 # Devops-projects
-Every folder in that Repo is a step or added task in Azure Pipeline
+Inside every folder in that Repo is a step or added task in Azure Pipeline
 
 inside every folder you will find the (steps.md) file  and explinations  
 My Devos Projects
