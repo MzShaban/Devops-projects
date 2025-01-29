@@ -9,6 +9,17 @@ Before getting started, make sure you have the following:
 1. An Azure DevOps organization: You need an Azure DevOps organization to create and manage your pipelines. If you don't have one, you can create a new organization or use an existing one.
 
 2. A repository with your source code: Azure Pipelines integrates with various source control systems like Git, GitHub, Azure Repos, and more. Make sure your source code repository is set up and accessible.
+### First we need to create an Agent in Azure Pool 
+( i did it on local machine)
+
+1. craet the Pool in Azure Organaization
+
+2. Create the Agent in the Pool
+
+3. Configurate the agaent to be in the listening for jobs coming from the Pipeline we will create later
+
+
+![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/1.jpg?raw=true)
 
 ### Creating an Azure Pipeline
 
