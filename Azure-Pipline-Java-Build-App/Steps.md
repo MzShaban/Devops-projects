@@ -50,7 +50,7 @@ To create an Azure Pipeline using the Classic Editor, follow these steps:
 
 10. Once you have defined your pipeline stages and tasks, click on the **Save & queue** button to save your pipeline configuration.
 
-![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/3.jpg?raw=true)
+
 
 ### Running the Pipeline
 
@@ -63,6 +63,12 @@ To run your Azure Pipeline, follow these steps:
 3. Monitor the progress of your pipeline as it executes. You can view the logs, check the status of each stage, and identify any issues that occur during the process.
 
 4. Once the pipeline run is complete, you can review the results and any generated artifacts or build outputs.
+
+![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/3.jpg?raw=true)
+
+Also we can check that all the Artifacts files are generated with ability to access and download 
+
+![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/4.jpg?raw=true)
 
 ### Conclusion
 
