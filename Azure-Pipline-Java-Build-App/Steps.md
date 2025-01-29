@@ -9,6 +9,17 @@ Before getting started, make sure you have the following:
 1. An Azure DevOps organization: You need an Azure DevOps organization to create and manage your pipelines. If you don't have one, you can create a new organization or use an existing one.
 
 2. A repository with your source code: Azure Pipelines integrates with various source control systems like Git, GitHub, Azure Repos, and more. Make sure your source code repository is set up and accessible.
+
+### Clone the repository
+
+Any Repo with such structur cloud be cloned as a java web app 
+here is the link for cloaning the repo that iused to clone inside the Azure project:
+
+Secret Santa Generator Application
+
+use the link to cloane : https://github.com/MzShaban/secretsanta-generator.git
+
+
 ### First we need to create an Agent in Azure Pool 
 ( i did it on local machine)
 
