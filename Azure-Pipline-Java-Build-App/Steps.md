@@ -21,6 +21,11 @@ Before getting started, make sure you have the following:
 
 ![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/1.jpg?raw=true)
 
+The Agent is ready.
+
+![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/2.jpg?raw=true)
+
+
 ### Creating an Azure Pipeline
 
 To create an Azure Pipeline using the Classic Editor, follow these steps:
