@@ -44,7 +44,7 @@ The Agent is ready.
 
 ![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/2.jpg?raw=true)
 
-Docker registry creation using Dockerhub repository 
+Docker registry creation need service connection configuration.
 
 ![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/dockerreg.png?raw=true)
 
