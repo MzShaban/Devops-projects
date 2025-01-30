@@ -1,6 +1,4 @@
-## Azure Pipelines with Classic Editor using Docker Hub
-
-We are going to create a pipeLine in Azure Devops for  Java Web App, for sure we can use Azure repository for that which is provided in the Azure Devops organization , but i used here Docker as a repository.
+## Azure Pipelines with Classic Editor
 
 Azure Pipelines is a powerful continuous integration and delivery (CI/CD) platform provided by Microsoft Azure. The Classic Editor in Azure Pipelines allows you to define your build and release pipelines using a graphical interface. This guide will walk you through the steps to set up and configure Azure Pipelines using the Classic Editor.
 
@@ -8,15 +6,9 @@ Azure Pipelines is a powerful continuous integration and delivery (CI/CD) platfo
 
 Before getting started, make sure you have the following:
 
-1. On the Vm machine ( i used my local machine here) we need:
+1. An Azure DevOps organization: You need an Azure DevOps organization to create and manage your pipelines. If you don't have one, you can create a new organization or use an existing one.
 
-- Install Docker
-- Install Maven
-- Install Java JDK-11
-
-2. An Azure DevOps organization: You need an Azure DevOps organization to create and manage your pipelines. If you don't have one, you can create a new organization or use an existing one.
-
-3. A repository with your source code: Azure Pipelines integrates with various source control systems like Git, GitHub, Azure Repos, and more. Make sure your source code repository is set up and accessible.
+2. A repository with your source code: Azure Pipelines integrates with various source control systems like Git, GitHub, Azure Repos, and more. Make sure your source code repository is set up and accessible.
 
 ### Clone the repository
 
@@ -44,9 +36,6 @@ The Agent is ready.
 
 ![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/2.jpg?raw=true)
 
-Docker registry creation need service connection configuration.
-
-![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/dockerreg.png?raw=true)
 
 ### Creating an Azure Pipeline
 
@@ -72,10 +61,6 @@ To create an Azure Pipeline using the Classic Editor, follow these steps:
 
 10. Once you have defined your pipeline stages and tasks, click on the **Save & queue** button to save your pipeline configuration.
 
-For Java-Web-App i add the following Stages including the bash command to run the docker image:
-
-
-![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/stages.png?raw=true)
 
 
 ### Running the Pipeline
@@ -90,15 +75,11 @@ To run your Azure Pipeline, follow these steps:
 
 4. Once the pipeline run is complete, you can review the results and any generated artifacts or build outputs.
 
-![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/runpipeline.png?raw=true)
+![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/3.jpg?raw=true)
 
-Also we can check the dockerhub repository in which the image was generated after running the pipeline
+Also we can check that all the Artifacts files are generated with ability to access and download 
 
-![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/dockerhub.png?raw=true)
-
-To access the web app : localhost:8080
-
-![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/webapp.png?raw=true)
+![alt text](https://github.com/MzShaban/Devops-projects/blob/main/Images/4.jpg?raw=true)
 
 ### Conclusion
 
